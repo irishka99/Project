@@ -1,4 +1,93 @@
-﻿// Задача 10: Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
+﻿//  Задача 2: Напишите программу, которая на вход принимает два числа и выдаёт, 
+// какое число большее, а какое меньшее.
+// a = 5; b = 7 -> max = 7
+// a = 2 b = 10 -> max = 10
+// a = -9 b = -3 -> max = -3
+
+// Console.WriteLine("Программа находит большее и меньшее из двух чисел","Введите первое число");
+// Console.WriteLine("Введите первое число");
+// int number1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите второе число");
+// int number2 = Convert.ToInt32(Console.ReadLine());
+// if (number1 > number2)
+// {
+// Console.Write( "Максимальное значение - " );
+// Console.WriteLine( number1 );
+// Console.Write( "Минимальное значение - " );
+// Console.WriteLine( number2 );
+// }
+// else
+// {
+//     Console.Write("Максимальное значение - ");
+//     Console.WriteLine(number2);
+//     Console.Write("Минимальное значение - ");
+//     Console.WriteLine(number1);
+// }
+
+// // Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
+// // 2, 3, 7 -> 7
+// // 44 5 78 -> 78
+// // 22 3 9 -> 22
+
+// Console.WriteLine("Программа находит наибольшее из 3-х чисел. ");
+// Console.WriteLine("Введите первое число");
+// int number1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите второе число");
+// int number2 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите третье число");
+// int number3 = Convert.ToInt32(Console.ReadLine());
+// int maxnumber=number1;
+// if (number2>maxnumber)
+// {
+//     maxnumber=number2;
+// }
+// if (number3>maxnumber)
+// {
+//     maxnumber=number3;
+// }
+// Console.WriteLine("Наибольшее значение - "+ maxnumber);
+
+// // Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным 
+// // (делится ли оно на два без остатка).
+// // 4 -> да
+// // -3 -> нет
+// // 7 -> нет
+
+
+// Console.WriteLine("Программа позволяет определить, является ли число четным");
+// Console.Write("Введите число ");
+// int number = Convert.ToInt32(Console.ReadLine()); 
+// if (number%2 == 0)
+// {
+//  Console.Write("Введенное число - чётное");
+// }
+// else
+// {
+//  Console.Write("Введенное число - нечётное");
+// }
+
+ // // Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+// // 5 -> 2, 4
+// // 8 -> 2, 4, 6, 8
+
+// Console.WriteLine("Программа показывает все чётные числа от 1 до введенного вами числа.");
+// Console.WriteLine("Введите число больше 1.");
+// int number = Convert.ToInt32(Console.ReadLine());
+// int i=1; 
+// if (number>1)
+// {
+//   while (i<number/2+1)
+//   {
+//     Console.WriteLine(i*2);
+//     i++;
+//   }
+// }
+// else 
+// {
+// Console.WriteLine("Вы ввели некорректное значение.");
+// }
+
+// Задача 10: Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
 // Нужно сделать через числа, без индексов строк.
 // 456 -> 5
 // 782 -> 8
@@ -178,7 +267,6 @@
 //     }
 
 // }
-
 
 
 
