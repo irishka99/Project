@@ -83,3 +83,72 @@
 // {
 // Console.Write(DayOfWeek[number-1]);
 // }
+
+
+// Задача 19
+// Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом.
+// 14212 -> нет
+// 12821 -> да
+// 23432 -> да
+
+
+// string number = "0";
+// int length = 0;
+// while (length != 5)
+// {
+//     Console.Write("Введите пятизначное число: ");
+//     int input = Convert.ToInt32(Console.ReadLine());
+//     number = Convert.ToString(input);
+//     length = number.Length;
+// }
+// string rNumber = String.Join("", number[4], number[3], number[2], number[1], number[0]);
+
+// if (rNumber == number)
+// {
+//     Console.WriteLine("Число является палиндромом. ");
+// }
+// else
+// {
+//     Console.WriteLine("Число не является палиндромом. ");
+// }
+
+
+
+// Задача 21
+// Напишите программу, которая принимает на вход координаты трех точек и находит расстояние между ними в 3D пространстве.
+// A (3,6,8); B (2,1,-7), -> 15.84
+// A (7,-5, 0); B (1,-1,9) -> 11.53
+
+// Console.Write("Введите координату х1: "); 
+// int x1 = Convert.ToInt32(Console.ReadLine());  
+// Console.Write("Введите координату y1: "); 
+// int y1 = Convert.ToInt32(Console.ReadLine()); 
+// Console.Write("Введите координату z1: "); 
+// int z1 = Convert.ToInt32(Console.ReadLine()); 
+// Console.Write("Введите координату х2: "); 
+// int x2 = Convert.ToInt32(Console.ReadLine());  
+// Console.Write("Введите координату y2: "); 
+// int y2 = Convert.ToInt32(Console.ReadLine()); 
+// Console.Write("Введите координату z2: "); 
+// int z2 = Convert.ToInt32(Console.ReadLine()); 
+
+// double result = Math.Sqrt(Math.Pow(x1-x2,2) + Math.Pow(y1-y2,2) + Math.Pow(z2-z1,2)); 
+
+// Console.WriteLine($"Расстояние между точкми: {Math.Round(result,2)}");
+
+
+
+// Задача 23
+// Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
+// 3 -> 1, 8, 27
+// 5 -> 1, 8, 27, 64, 125
+
+// Console.Write("Введите число:  ");
+// int n = Convert.ToInt32(Console.ReadLine()); 
+// int[] array = new int[n];
+
+// for (int i = 0; i < n ; i++)
+// {
+//     array [i] = Convert.ToInt32(Math.Pow(i+1,3));
+// }
+// Console.WriteLine($"Результат: [ {String.Join(", " ,array )} ]");
