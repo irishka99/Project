@@ -54,7 +54,7 @@
 //      }
 //      int result = (number % temp)/(temp/10);
 //      Console.WriteLine("Третья цифра числа = " + result);
-    
+
 //  }
 
 
@@ -150,5 +150,76 @@
 // for (int i = 0; i < n ; i++)
 // {
 //     array [i] = Convert.ToInt32(Math.Pow(i+1,3));
+// }
+// Console.WriteLine($"Результат: [ {String.Join(", " ,array )} ]");
+
+
+// Задача 25: Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.
+// 3, 5 -> 243 (3⁵)
+// 2, 4 -> 16
+
+// int a = 1;
+// int b = 0;
+// Console.WriteLine("Программа принимает на вход два числа (A и B) и возводит число A в натуральную степень B");
+// while (a==1)
+// {
+//     Console.WriteLine("Введите первое число- ");
+//     int number1 = Convert.ToInt32(Console.ReadLine()); 
+//     Console.WriteLine("Введите второе число- ");
+//     int number2 = Convert.ToInt32(Console.ReadLine()); 
+//     int result = Convert.ToInt32(Math.Pow(number1,number2));
+//     Console.WriteLine($"Результат: {result} ");
+//     Console.WriteLine($"Введите \" 1 \", если хотите продолжить.  ");
+//     b=Convert.ToInt32(Console.ReadLine());
+
+//     if (b!=1)
+//     {
+//      a=0;
+//     }
+
+// }
+
+
+
+
+// Задача 27: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
+// 452 -> 11
+// 82 -> 10
+// 9012 -> 12
+
+
+// Console.Write("Введите число N: ");
+// int numberN = Convert.ToInt32(Console.ReadLine());
+
+//   int SumNumber(int numberN){
+    
+//     int count = Convert.ToString(numberN).Length;
+//     int temp = 0;
+//     int result = 0;
+
+//     for (int i = 0; i < count; i++)
+//     {
+//       temp = numberN - numberN % 10;
+//       result = result + (numberN - temp);
+//       numberN = numberN / 10;
+//     }
+//    return result;
+//   }
+
+// int sumNumber = SumNumber(numberN);
+// Console.WriteLine("Сумма цифр в числе: " + sumNumber);
+
+
+
+
+// Задача 29: Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
+// 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
+// 6, 1, 33 -> [6, 1, 33]
+
+// int[] array = new int[8];
+// for (int i = 0; i < 8; i++)
+// {
+//     Console.WriteLine($"Введите {i+1}-й элемент массива: ");
+//     array[i]=Convert.ToInt32(Console.ReadLine());
 // }
 // Console.WriteLine($"Результат: [ {String.Join(", " ,array )} ]");

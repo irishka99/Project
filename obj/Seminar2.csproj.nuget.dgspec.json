@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Иришка\\Desktop\\C#\\Seminar2\\Seminar2.csproj": {}
+    "C:\\Users\\Иришка\\Desktop\\C#\\Project\\Seminar2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Иришка\\Desktop\\C#\\Seminar2\\Seminar2.csproj": {
+    "C:\\Users\\Иришка\\Desktop\\C#\\Project\\Seminar2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Иришка\\Desktop\\C#\\Seminar2\\Seminar2.csproj",
+        "projectUniqueName": "C:\\Users\\Иришка\\Desktop\\C#\\Project\\Seminar2.csproj",
         "projectName": "Seminar2",
-        "projectPath": "C:\\Users\\Иришка\\Desktop\\C#\\Seminar2\\Seminar2.csproj",
+        "projectPath": "C:\\Users\\Иришка\\Desktop\\C#\\Project\\Seminar2.csproj",
         "packagesPath": "C:\\Users\\Иришка\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Иришка\\Desktop\\C#\\Seminar2\\obj\\",
+        "outputPath": "C:\\Users\\Иришка\\Desktop\\C#\\Project\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Иришка\\AppData\\Roaming\\NuGet\\NuGet.Config"
