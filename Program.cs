@@ -66,7 +66,7 @@
 //  Console.Write("Введенное число - нечётное");
 // }
 
- // // Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+// // Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 // // 5 -> 2, 4
 // // 8 -> 2, 4, 6, 8
 
@@ -280,7 +280,7 @@
 // int numberN = Convert.ToInt32(Console.ReadLine());
 
 //   int SumNumber(int numberN){
-    
+
 //     int count = Convert.ToString(numberN).Length;
 //     int temp = 0;
 //     int result = 0;
@@ -311,3 +311,80 @@
 //     array[i]=Convert.ToInt32(Console.ReadLine());
 // }
 // Console.WriteLine($"Результат: [ {String.Join(", " ,array )} ]");
+
+
+// Задача 34: Задайте массив заполненный случайными положительными трёхзначными числами. 
+// Напишите программу, которая покажет количество чётных чисел в массиве.
+// [345, 897, 568, 234] -> 2
+
+
+// int EvenCounter (int[]array)
+// {
+//     int result=0;
+// for (int i = 0; i < array.Length; i++)
+// {
+//     if (array[i]%2==0)
+//     {
+//   result++;
+//     }
+
+// }
+// return result;
+// }
+//     int []start= new int[10];
+//     for (int i = 0; i < start.Length; i++)
+//     {
+// start[i]=new Random().Next(100,999);
+//     }
+// System.Console.WriteLine($"[ {String.Join(" ,", start)} ]");
+// System.Console.WriteLine(EvenCounter(start));
+
+
+// Задача 36: Задайте одномерный массив, заполненный случайными числами. 
+// Найдите сумму элементов, стоящих на нечётных позициях.
+// [3, 7, 23, 12] -> 19
+// [-4, -6, 89, 6] -> 0
+
+// int[]array= new int [10];
+
+//     for (int i = 0; i < array.Length; i++)
+//     {
+// array[i]=new Random().Next(1,100);
+//     }
+
+//  System.Console.WriteLine($"[ {String.Join(" ,", array)} ]");
+//  int result= 0;
+//  for (int i=1; i<array.Length;i +=2)
+//  {
+// result+= array[i];
+//  }
+// System.Console.WriteLine(result);
+
+// Задача 38: Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
+// [3 7 22 2 78] -> 76
+
+// Random rand = new Random();
+// double[] array = new double[10];
+
+// for (int i = 0; i < array.Length; i++)
+// {
+//     array[i] = Math.Round(rand.NextDouble() * 100, 1);
+// }
+// double max = array[0];
+// double min = array[0];
+// Console.WriteLine($"[ {String.Join("; ", array)} ]");
+
+// for (int i = 0; i < array.Length; i++)
+// {
+//     if (array[i] > max)
+//     {
+//         max = array[i];
+//     }
+//     if (array[i] < min)
+//     {
+//         min = array[i];
+//     }
+// }
+
+// double result= max-min;
+// System.Console.WriteLine($"Разница между максимальным и минимальным элементами массива = {Math.Round(result,1)}");
