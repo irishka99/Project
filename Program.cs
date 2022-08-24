@@ -388,3 +388,71 @@
 
 // double result= max-min;
 // System.Console.WriteLine($"Разница между максимальным и минимальным элементами массива = {Math.Round(result,1)}");
+
+
+// Задача 41: Пользователь вводит с клавиатуры M чисел. Посчитайте, сколько чисел больше 0 ввёл пользователь.
+
+// 0, 7, 8, -2, -2 -> 2
+
+// 1, -7, 567, 89, 223-> 3
+
+
+// Console.WriteLine("Сколько чисел вы хотите ввести?");
+// int size =Convert.ToInt32(Console.ReadLine()); 
+// int []array =new int [size];
+// int i = 0;
+// int result = 0;
+// for ( i = 0; i < size; i++)
+// {
+//     Console.WriteLine($"\n Введите значение числа {i+1}");
+//     array[i]= Convert.ToInt32(Console.ReadLine()); 
+//     if (array[i] >0)
+//     {
+//         result ++;
+//     }
+// }
+// Console.WriteLine($"\n Кол-во чисел больше 0:\n {result}");
+
+
+// Задача 42: Напишите программу, которая будет преобразовывать десятичное число в двоичное.
+// 45 -> 101101
+// 3  -> 11
+// 2  -> 10
+
+
+// Console.WriteLine("Введите число, которое хотели бы перевести в двоичную систему счисления");
+// int decimalNumber = Convert.ToInt32(Console.ReadLine());
+// int temp = decimalNumber;
+// int temp1 = 0;
+// int result = 0;
+// int i = 0;
+// while (temp > 0)
+// {
+//     temp1 = temp % 2;
+//     temp = temp / 2;
+//     result = result + temp1 * Convert.ToInt32(Math.Pow(10, i));
+//     i++;
+// }
+// Console.WriteLine($"В двоичной системе счисления это будет: {result}");
+
+
+
+// Задача 43: Напишите программу, которая найдёт точку пересечения двух прямых, 
+// заданных уравнениями y = k1 * x + b1, y = k2 * x + b2; значения b1, k1, b2 и k2 задаются пользователем.
+// b1 = 2, k1 = 5, b2 = 4, k2 = 9 -> (-0,5; -0,5)
+
+
+// Console.WriteLine("Программа находит точку пересечения двух прямых, заданных уравнениями: \n y = k1 * x + b1, \n y = k2 * x + b2");
+// Console.WriteLine("Введите значение b1: ");
+// int b1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите значение k1: ");
+// int k1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите значение b2: ");
+// int b2 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите значение k2: ");
+// int k2 = Convert.ToInt32(Console.ReadLine());
+
+// double x = (Convert.ToDouble(b2) - Convert.ToDouble(b1)) / (Convert.ToDouble(k1) - Convert.ToDouble(k2));
+// double y = k1 * x + b1;
+// Console.WriteLine($"Точка пересечения двух прямых : {Math.Round(x,2)},{Math.Round(y,2)}");
+
